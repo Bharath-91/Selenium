@@ -34,8 +34,4 @@ public class DressPageTest {
 		dp.clickDresses();
 		Assert.assertTrue(dp.elementFound(dp.sizeL()));
 	}
-	@Test
-	public void verifytables() {
-		Assert.assertTrue(dp.gettotalitems().contains("There are 5 products"));
-	}
 }

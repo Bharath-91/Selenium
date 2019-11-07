@@ -45,13 +45,6 @@ public class DressPageObjects extends BasePage {
 		// TODO Auto-generated method stub
 		return sizeL;
 	}
-	@FindBy(xpath = "//*[@id=\"center_column\"]/ul")
-	private List<WebElement> totalitems;
-	
-	@FindBy(xpath = "//*[@id=\"center_column\"]/h1/span[2]")
-	private WebElement totalproducts;
-	
-	public List<WebElement> gettotalitems(){
-		return totalitems;
-	}
+	//@FindBy(xpath = "//*[@id=\"center_column\"]/ul")
+	//private List<WebElement> totalproducts; 
 }
